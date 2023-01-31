@@ -811,11 +811,13 @@ section {
   }
   .contact-content-con .left-contact .contact-info .contact-item {
     justify-content: flex-start;
-    width: 400px;
-    padding-left: 0.4rem;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8rem;
   }
   .contact-content-con .left-contact .contact-info .contact-item .icon {
-    grid-template-columns: 28px 1fr;
+    grid-template-columns: 22px 1fr;
   }
   .contact-content-con .right-contact {
     margin: 0;

@@ -74,10 +74,12 @@
             .contact-info{
                 .contact-item{
                     justify-content: flex-start;
-                    width: 400px;
-                    padding-left: .4rem;
+                    width: 350px;
+                    display: flex;
+                    flex-direction: column;
+                    padding-left: .8rem;
                     .icon{
-                        grid-template-columns: 28px 1fr;
+                        grid-template-columns: 22px 1fr;
                     }
                 }
             }
