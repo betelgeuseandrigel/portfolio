@@ -1,0 +1,115 @@
+@media screen and (max-width: 400px) {
+    header{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    header .right-header{
+        padding: 0 2rem !important;
+    }
+
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+
+    .header-content{
+        grid-template-columns: 1fr ;
+        .left-header{
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+            .image{
+                width: 90%;
+                margin: 0 auto;
+            }
+            .h-shape{
+                display: none;
+            }
+        }
+        .right-header{
+            grid-row: 1;
+            width: 90%;
+            margin: 0 auto;
+            .name{
+                font-size: 2.5rem !important;
+                padding-top: 1rem;
+            }
+        }
+    }
+
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+        }
+        .left-about{
+           margin: 0 auto;
+        }
+    }
+
+    .about-stats{
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .blogs{
+        .portfolios{
+            grid-template-columns: 1fr;
+            padding-bottom: 6rem;
+        }
+    }
+
+    .contact-container{
+        .main-title{
+            padding-right: 2rem;
+        }
+    }
+
+    .contact-content-con{
+        flex-direction: column;
+        .left-contact{
+            .contact-info{
+                .contact-item{
+                    justify-content: flex-start;
+                    width: 400px;
+                    padding-left: .4rem;
+                    .icon{
+                        grid-template-columns: 28px 1fr;
+                    }
+                }
+            }
+        }
+        .right-contact{
+            margin: 0;
+            .contact-form{
+                width: 300px;
+                margin: 0 auto;
+                padding-bottom: 2rem ;
+            }
+        }
+       
+      
+    }
+
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+
+    .controlls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .control{
+            margin: .2rem .2rem !important;
+        }
+        
+    }
+}
