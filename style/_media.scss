@@ -90,8 +90,16 @@
                 padding-bottom: 2rem ;
             }
         }
-       
-      
+    }
+
+    .btn-con2{
+        padding-bottom: 2rem;
+        .main-btn2{
+            .btn-icon2{
+                display: flex;
+                align-items: center;
+            }
+        }
     }
 
     .section{

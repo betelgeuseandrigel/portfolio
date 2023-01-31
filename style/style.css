@@ -825,6 +825,13 @@ section {
     margin: 0 auto;
     padding-bottom: 2rem;
   }
+  .btn-con2 {
+    padding-bottom: 2rem;
+  }
+  .btn-con2 .main-btn2 .btn-icon2 {
+    display: flex;
+    align-items: center;
+  }
   .section {
     padding: 2rem 2.5rem !important;
   }
