@@ -830,6 +830,9 @@ section {
   .btn-con2 {
     padding-bottom: 2rem;
   }
+  .btn-con2 .main-btn2 {
+    width: 100%;
+  }
   .btn-con2 .main-btn2 .btn-icon2 {
     display: flex;
     align-items: center;
